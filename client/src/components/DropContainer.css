@@ -1,0 +1,7 @@
+.Dropzone {
+    height: 50vh;
+    width: 30vw;
+    background-color: grey;
+    position: relative;
+    margin: 20px;
+}

@@ -4,12 +4,10 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter } from 'react-router-dom';
-import { DragDropContext } from 'react-beautiful-dnd';
+
 ReactDOM.render(
 	<BrowserRouter>
-		<DragDropContext>
-			<App />
-		</DragDropContext>
+		<App />
 	</BrowserRouter>,
 	document.getElementById('root')
 );

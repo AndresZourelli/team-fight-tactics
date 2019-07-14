@@ -1,0 +1,7 @@
+.DragObj {
+    width: 20vw;
+    height: 10vh;
+    background-color: lightsteelblue;
+    margin: 10px auto;
+    padding: 20px;
+}
