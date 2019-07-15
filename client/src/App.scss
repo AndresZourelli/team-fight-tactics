@@ -1,0 +1,42 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(216, 229, 240);
+}
+
+.main-container {
+  display: flex;
+  flex-flow: row wrap;
+  height: 100%;
+
+
+
+  .left-menu {
+    flex: 20%;
+    background-color: gold;
+    order: 1;
+  }
+
+  .main-menu {
+    flex: 60%;
+    background-color: deepskyblue;
+    order: 2;
+  }
+
+  .right-menu {
+    flex: 20%;
+    background-color: lightgreen;
+    order: 3;
+  }
+
+  .bottom-menu {
+    flex: 100%;
+    background-color: tomato;
+    order: 4;
+  }
+}
+
+// .left-menu
+// .main-menu
+// .right-menu
+// .bottom-menu
