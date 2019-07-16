@@ -1,7 +1,7 @@
 {
     "characters": [{
             "name": "Akali",
-            "class": ["Assasins"],
+            "class": ["Assassin"],
             "origins": ["Ninja"],
             "health": [],
             "attack": [],
@@ -11,7 +11,7 @@
         },
         {
             "name": "Evelynn",
-            "class": ["Assasins"],
+            "class": ["Assassin"],
             "origins": ["Demon"],
             "health": [],
             "attack": [],
@@ -21,7 +21,7 @@
         },
         {
             "name": "Katarina",
-            "class": ["Assasins"],
+            "class": ["Assassin"],
             "origins": ["Imperial"],
             "health": [],
             "attack": [],
@@ -31,7 +31,7 @@
         },
         {
             "name": "Kha'Zix",
-            "class": ["Assasins"],
+            "class": ["Assassin"],
             "origins": ["Void"],
             "health": [],
             "attack": [],
@@ -41,7 +41,7 @@
         },
         {
             "name": "Pyke",
-            "class": ["Assasins"],
+            "class": ["Assassin"],
             "origins": ["Pirate"],
             "health": [],
             "attack": [],
@@ -51,7 +51,7 @@
         },
         {
             "name": "Rengar",
-            "class": ["Assasins"],
+            "class": ["Assassin"],
             "origins": ["Wild"],
             "health": [],
             "attack": [],
@@ -61,7 +61,7 @@
         },
         {
             "name": "Zed",
-            "class": ["Assasins"],
+            "class": ["Assassin"],
             "origins": ["Ninja"],
             "health": [],
             "attack": [],
@@ -101,7 +101,7 @@
         },
         {
             "name": "Gangplank",
-            "class": ["Blademaster", "Gunslingers"],
+            "class": ["Blademaster", "Gunslinger"],
             "origins": ["Pirate"],
             "health": [],
             "attack": [],
@@ -131,7 +131,7 @@
         },
         {
             "name": "Blitzcrank",
-            "class": ["Brawlers"],
+            "class": ["Brawler"],
             "origins": ["Robot"],
             "health": [],
             "attack": [],
@@ -141,7 +141,7 @@
         },
         {
             "name": "Cho'gath",
-            "class": ["Brawlers"],
+            "class": ["Brawler"],
             "origins": ["Wild"],
             "health": [],
             "attack": [],
@@ -151,7 +151,7 @@
         },
         {
             "name": "Rek'Sai",
-            "class": ["Brawlers"],
+            "class": ["Brawler"],
             "origins": ["Wild"],
             "health": [],
             "attack": [],
@@ -161,7 +161,7 @@
         },
         {
             "name": "Volibear",
-            "class": ["Brawlers"],
+            "class": ["Brawler"],
             "origins": ["Glacial"],
             "health": [],
             "attack": [],
@@ -171,7 +171,7 @@
         },
         {
             "name": "Warwick",
-            "class": ["Brawlers"],
+            "class": ["Brawler"],
             "origins": ["Wild"],
             "health": [],
             "attack": [],
@@ -221,7 +221,7 @@
         },
         {
             "name": "Braum",
-            "class": ["Guardians"],
+            "class": ["Guardian"],
             "origins": ["Glacial"],
             "health": [],
             "attack": [],
@@ -231,7 +231,7 @@
         },
         {
             "name": "Leona",
-            "class": ["Guardians"],
+            "class": ["Guardian"],
             "origins": ["Noble"],
             "health": [],
             "attack": [],
@@ -241,7 +241,7 @@
         },
         {
             "name": "Graves",
-            "class": ["Gunslingers"],
+            "class": ["Gunslinger"],
             "origins": ["Pirate"],
             "health": [],
             "attack": [],
@@ -251,7 +251,7 @@
         },
         {
             "name": "Lucian",
-            "class": ["Gunslingers"],
+            "class": ["Gunslinger"],
             "origins": ["Noble"],
             "health": [],
             "attack": [],
@@ -261,7 +261,7 @@
         },
         {
             "name": "Miss Fortune",
-            "class": ["Gunslingers"],
+            "class": ["Gunslinger"],
             "origins": ["Pirate"],
             "health": [],
             "attack": [],
@@ -271,7 +271,7 @@
         },
         {
             "name": "Tristana",
-            "class": ["Gunslingers"],
+            "class": ["Gunslinger"],
             "origins": ["Yordle"],
             "health": [],
             "attack": [],
@@ -281,7 +281,7 @@
         },
         {
             "name": "Darius",
-            "class": ["Knights"],
+            "class": ["Knight"],
             "origins": ["Imperial"],
             "health": [],
             "attack": [],
@@ -291,7 +291,7 @@
         },
         {
             "name": "Garen",
-            "class": ["Knights"],
+            "class": ["Knight"],
             "origins": ["Noble"],
             "health": [],
             "attack": [],
@@ -301,7 +301,7 @@
         },
         {
             "name": "Kayle",
-            "class": ["Knights"],
+            "class": ["Knight"],
             "origins": ["Noble"],
             "health": [],
             "attack": [],
@@ -311,7 +311,7 @@
         },
         {
             "name": "Mordekaiser",
-            "class": ["Knights"],
+            "class": ["Knight"],
             "origins": ["Phantom"],
             "health": [],
             "attack": [],
@@ -321,7 +321,7 @@
         },
         {
             "name": "Poppy",
-            "class": ["Knights"],
+            "class": ["Knight"],
             "origins": ["Yordle"],
             "health": [],
             "attack": [],
@@ -331,7 +331,7 @@
         },
         {
             "name": "Sejuani",
-            "class": ["Knights"],
+            "class": ["Knight"],
             "origins": ["Glacial"],
             "health": [],
             "attack": [],
@@ -381,7 +381,7 @@
         },
         {
             "name": "Elise",
-            "class": ["Shapeshifters"],
+            "class": ["Shapeshifter"],
             "origins": ["Demon"],
             "health": [],
             "attack": [],
@@ -391,7 +391,7 @@
         },
         {
             "name": "Gnar",
-            "class": ["Shapeshifters"],
+            "class": ["Shapeshifter"],
             "origins": ["Wild", "Yordle"],
             "health": [],
             "attack": [],
@@ -401,7 +401,7 @@
         },
         {
             "name": "Nidalee",
-            "class": ["Shapeshifters"],
+            "class": ["Shapeshifter"],
             "origins": ["Wild"],
             "health": [],
             "attack": [],
@@ -411,7 +411,7 @@
         },
         {
             "name": "Shyvana",
-            "class": ["Shapeshifters"],
+            "class": ["Shapeshifter"],
             "origins": ["Dragon"],
             "health": [],
             "attack": [],
@@ -421,7 +421,7 @@
         },
         {
             "name": "Swain",
-            "class": ["Shapeshifters"],
+            "class": ["Shapeshifter"],
             "origins": ["Demon", "Imperial"],
             "health": [],
             "attack": [],
@@ -431,7 +431,7 @@
         },
         {
             "name": "Ahri",
-            "class": ["Sorcerers"],
+            "class": ["Sorcerer"],
             "origins": ["Wild"],
             "health": [],
             "attack": [],
@@ -441,7 +441,7 @@
         },
         {
             "name": "Aurelion Sol",
-            "class": ["Sorcerers"],
+            "class": ["Sorcerer"],
             "origins": ["Dragon"],
             "health": [],
             "attack": [],
@@ -451,7 +451,7 @@
         },
         {
             "name": "Karthus",
-            "class": ["Sorcerers"],
+            "class": ["Sorcerer"],
             "origins": ["Phantom"],
             "health": [],
             "attack": [],
@@ -461,7 +461,7 @@
         },
         {
             "name": "Kassadin",
-            "class": ["Sorcerers"],
+            "class": ["Sorcerer"],
             "origins": ["Wild"],
             "health": [],
             "attack": [],
@@ -471,7 +471,7 @@
         },
         {
             "name": "Lulu",
-            "class": ["Sorcerers"],
+            "class": ["Sorcerer"],
             "origins": ["Yordle"],
             "health": [],
             "attack": [],
@@ -481,7 +481,7 @@
         },
         {
             "name": "Morgana",
-            "class": ["Sorcerers"],
+            "class": ["Sorcerer"],
             "origins": ["Demon"],
             "health": [],
             "attack": [],
@@ -491,7 +491,7 @@
         },
         {
             "name": "Veigar",
-            "class": ["Sorcerers"],
+            "class": ["Sorcerer"],
             "origins": ["Yordle"],
             "health": [],
             "attack": [],
