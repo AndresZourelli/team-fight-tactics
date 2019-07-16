@@ -34,12 +34,10 @@ function extract_groups() {
 	let ranger = [];
 	let shapeshifter = [];
 	let sorcerer = [];
-	console.log(ListChar.characters.length);
 	for (let i = 0; i < ListChar.characters.length; i++) {
 		let index = ListChar.characters[i];
 
 		if (index.class.includes('Assassin')) {
-			console.log('object');
 			assassin.push(index.name);
 		}
 		if (index.class.includes('Blademaster')) {
