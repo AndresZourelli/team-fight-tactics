@@ -1,0 +1,56 @@
+{
+  "character_stats": [
+      {
+          "name": "Attack_Damage",
+          "id": 1
+      },
+      {
+        "name": "Attack_Speed",
+        "id": 2
+      },
+      {
+        "name": "Armor",
+        "id": 3
+      },
+      {
+        "name": "Magic_Resist",
+        "id": 4
+      },
+      {
+        "name": "Spell_Damage",
+        "id": 5
+      },
+      {
+        "name": "Max_Mana",
+        "id": 6
+      },
+      {
+        "name": "Max_Health",
+        "id": 7
+      },
+      {
+        "name": "Dodge",
+        "id": 8
+      },
+      {
+        "name": "Hit_Chance",
+        "id": 9
+      },
+      {
+        "name": "Splash_Damage",
+        "id": 10
+      },
+      {
+        "name": "Stars",
+        "id": 11
+      },
+      {
+        "name": "Ability_Power",
+        "id": 12
+      },
+      {
+        "name": "Regeneration",
+        "id": 13
+      }
+    ]
+  }
