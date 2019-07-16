@@ -3,6 +3,7 @@ import './App.scss';
 import DropContainer from './components/DropContainer';
 import DragContainer from './components/DragContainer';
 import CharacterJSON from './HOC/CharacterJSON';
+import CharacterOrigins from './components/Character_Origins/CharacterOrigins';
 function App(props) {
 	console.log(props);
 	return (
@@ -16,7 +17,9 @@ function App(props) {
 				<div className="left-menu">Characters</div>
 				<div className="main-menu">Team Build Area</div>
 				<div className="right-menu">Item Area</div>
-				<div className="bottom-menu">Team Comp Builder</div>
+				<div className="bottom-menu">
+					<CharacterOrigins />
+				</div>
 			</div>
 		</div>
 	);
