@@ -1,0 +1,40 @@
+{
+  "game_events": [
+      {
+        "name": "Start_Combat",
+        "id": 1
+      },
+      {
+        "name": "Per_Second",
+        "id": 2
+      },
+      {
+        "name": "Per_Damage_Dealt",
+        "id": 3
+      },
+      {
+        "name": "On_Ability_Cast",
+        "id": 4
+      },
+      {
+        "name": "Critical_Hit",
+        "id": 5
+      },
+      {
+        "name": "Damage_Taken",
+        "id": 6
+      },
+      {
+        "name": "On_Attack",
+        "id": 7
+      },
+      {
+        "name": "On_Spell_Hit",
+        "id": 8
+      },
+      {
+        "name": "On_Death",
+        "id": 9
+      }
+    ]
+  }
