@@ -1,0 +1,503 @@
+{
+    "characters": [{
+            "name": "Akali",
+            "class": ["Assasins"],
+            "origins": ["Ninja"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 4
+        },
+        {
+            "name": "Evelynn",
+            "class": ["Assasins"],
+            "origins": ["Demon"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 3
+        },
+        {
+            "name": "Katarina",
+            "class": ["Assasins"],
+            "origins": ["Imperial"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 3
+        },
+        {
+            "name": "Kha'Zix",
+            "class": ["Assasins"],
+            "origins": ["Void"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 1
+        },
+        {
+            "name": "Pyke",
+            "class": ["Assasins"],
+            "origins": ["Pirate"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 2
+        },
+        {
+            "name": "Rengar",
+            "class": ["Assasins"],
+            "origins": ["Wild"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 3
+        },
+        {
+            "name": "Zed",
+            "class": ["Assasins"],
+            "origins": ["Ninja"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 2
+        },
+        {
+            "name": "Aatrox",
+            "class": ["Blademaster"],
+            "origins": ["Demon"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 3
+        },
+        {
+            "name": "Draven",
+            "class": ["Blademaster"],
+            "origins": ["Imperial"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 4
+        },
+        {
+            "name": "Fiora",
+            "class": ["Blademaster"],
+            "origins": ["Noble"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 1
+        },
+        {
+            "name": "Gangplank",
+            "class": ["Blademaster", "Gunslingers"],
+            "origins": ["Pirate"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 3
+        },
+        {
+            "name": "Shen",
+            "class": ["Blademaster"],
+            "origins": ["Ninja"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 2
+        },
+        {
+            "name": "Yasuo",
+            "class": ["Blademaster"],
+            "origins": ["Exile"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 5
+        },
+        {
+            "name": "Blitzcrank",
+            "class": ["Brawlers"],
+            "origins": ["Robot"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 2
+        },
+        {
+            "name": "Cho'gath",
+            "class": ["Brawlers"],
+            "origins": ["Wild"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 4
+        },
+        {
+            "name": "Rek'Sai",
+            "class": ["Brawlers"],
+            "origins": ["Wild"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 2
+        },
+        {
+            "name": "Volibear",
+            "class": ["Brawlers"],
+            "origins": ["Glacial"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 3
+        },
+        {
+            "name": "Warwick",
+            "class": ["Brawlers"],
+            "origins": ["Wild"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 1
+        },
+        {
+            "name": "Anivia",
+            "class": ["Elementalist"],
+            "origins": ["Glacial"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 5
+        },
+        {
+            "name": "Brand",
+            "class": ["Elementalist"],
+            "origins": ["Demon"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 4
+        },
+        {
+            "name": "Kennen",
+            "class": ["Elementalist"],
+            "origins": ["Ninja", "Yordle"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 3
+        },
+        {
+            "name": "Lissandra",
+            "class": ["Elementalist"],
+            "origins": ["Glacial"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 2
+        },
+        {
+            "name": "Braum",
+            "class": ["Guardians"],
+            "origins": ["Glacial"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 2
+        },
+        {
+            "name": "Leona",
+            "class": ["Guardians"],
+            "origins": ["Noble"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 4
+        },
+        {
+            "name": "Graves",
+            "class": ["Gunslingers"],
+            "origins": ["Pirate"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 1
+        },
+        {
+            "name": "Lucian",
+            "class": ["Gunslingers"],
+            "origins": ["Noble"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 2
+        },
+        {
+            "name": "Miss Fortune",
+            "class": ["Gunslingers"],
+            "origins": ["Pirate"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 5
+        },
+        {
+            "name": "Tristana",
+            "class": ["Gunslingers"],
+            "origins": ["Yordle"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 1
+        },
+        {
+            "name": "Darius",
+            "class": ["Knights"],
+            "origins": ["Imperial"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 1
+        },
+        {
+            "name": "Garen",
+            "class": ["Knights"],
+            "origins": ["Noble"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 1
+        },
+        {
+            "name": "Kayle",
+            "class": ["Knights"],
+            "origins": ["Noble"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 5
+        },
+        {
+            "name": "Mordekaiser",
+            "class": ["Knights"],
+            "origins": ["Phantom"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 1
+        },
+        {
+            "name": "Poppy",
+            "class": ["Knights"],
+            "origins": ["Yordle"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 3
+        },
+        {
+            "name": "Sejuani",
+            "class": ["Knights"],
+            "origins": ["Glacial"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 4
+        },
+        {
+            "name": "Ashe",
+            "class": ["Ranger"],
+            "origins": ["Glacial"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 3
+        },
+        {
+            "name": "Kindred",
+            "class": ["Ranger"],
+            "origins": ["Phantom"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 4
+        },
+        {
+            "name": "Varus",
+            "class": ["Ranger"],
+            "origins": ["Demon"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 2
+        },
+        {
+            "name": "Vayne",
+            "class": ["Ranger"],
+            "origins": ["Noble"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 1
+        },
+        {
+            "name": "Elise",
+            "class": ["Shapeshifters"],
+            "origins": ["Demon"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 2
+        },
+        {
+            "name": "Gnar",
+            "class": ["Shapeshifters"],
+            "origins": ["Wild", "Yordle"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 4
+        },
+        {
+            "name": "Nidalee",
+            "class": ["Shapeshifters"],
+            "origins": ["Wild"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 1
+        },
+        {
+            "name": "Shyvana",
+            "class": ["Shapeshifters"],
+            "origins": ["Dragon"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 3
+        },
+        {
+            "name": "Swain",
+            "class": ["Shapeshifters"],
+            "origins": ["Demon", "Imperial"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 5
+        },
+        {
+            "name": "Ahri",
+            "class": ["Sorcerers"],
+            "origins": ["Wild"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 2
+        },
+        {
+            "name": "Aurelion Sol",
+            "class": ["Sorcerers"],
+            "origins": ["Dragon"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 4
+        },
+        {
+            "name": "Karthus",
+            "class": ["Sorcerers"],
+            "origins": ["Phantom"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 5
+        },
+        {
+            "name": "Kassadin",
+            "class": ["Sorcerers"],
+            "origins": ["Wild"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 1
+        },
+        {
+            "name": "Lulu",
+            "class": ["Sorcerers"],
+            "origins": ["Yordle"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 2
+        },
+        {
+            "name": "Morgana",
+            "class": ["Sorcerers"],
+            "origins": ["Demon"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 3
+        },
+        {
+            "name": "Veigar",
+            "class": ["Sorcerers"],
+            "origins": ["Yordle"],
+            "health": [],
+            "attack": [],
+            "attack speed": [],
+            "mana": [],
+            "tier": 3
+        }
+    ]
+}
