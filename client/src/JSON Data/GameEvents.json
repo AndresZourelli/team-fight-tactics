@@ -5,11 +5,11 @@
         "id": 1
       },
       {
-        "name": "Per_Second",
+        "name": "Second_Passed",
         "id": 2
       },
       {
-        "name": "Per_Damage_Dealt",
+        "name": "Damage_Dealt",
         "id": 3
       },
       {
@@ -35,6 +35,14 @@
       {
         "name": "On_Death",
         "id": 9
+      },
+      {
+        "name": "Damage_Dealt_Basic_Attacks",
+        "id": 10
+      },
+      {
+        "name": "Continuous",
+        "id": 11
       }
     ]
   }
