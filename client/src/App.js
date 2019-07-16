@@ -2,8 +2,9 @@ import React from 'react';
 import './App.scss';
 import DropContainer from './components/DropContainer';
 import DragContainer from './components/DragContainer';
-
-function App() {
+import CharacterJSON from './HOC/CharacterJSON';
+function App(props) {
+	console.log(props);
 	return (
 		<div className="App">
 			<nav className="navbar navbar-dark bg-dark">
@@ -21,7 +22,7 @@ function App() {
 	);
 }
 
-export default App;
+export default CharacterJSON(App);
 
 // working code
 // <div className="App" style={{ display: 'flex' }}>
