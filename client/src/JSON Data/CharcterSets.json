@@ -1,0 +1,36 @@
+{
+  "character_sets": [
+      {
+        "name": "Self",
+        "id": 1
+      },
+      {
+        "name": "Adjacent_Allies",
+        "id": 2
+      },
+      {
+        "name": "All_Allies",
+        "id": 3
+      },
+      {
+        "name": "Enemy_Hit",
+        "id": 4
+      },
+      {
+        "name": "Adjacent_Enemies",
+        "id": 5
+      },
+      {
+        "name": "All_Enemies",
+        "id": 6
+      },
+      {
+        "name": "Random_Ally",
+        "id": 7
+      },
+      {
+        "name": "Random_Enemy",
+        "id": 8
+      }
+    ]
+  }
