@@ -1,0 +1,44 @@
+{
+  "classes": [
+      {
+        "name": "Assassin",
+        "id": 1
+      },
+      {
+        "name": "Sorcerer",
+        "id": 2
+      },
+      {
+        "name": "Shapeshifter",
+        "id": 3
+      },
+      {
+        "name": "Elementalist",
+        "id": 4
+      },
+      {
+        "name": "Blademaster",
+        "id": 5
+      },
+      {
+        "name": "Gunslinger",
+        "id": 6
+      },
+      {
+        "name": "Brawler",
+        "id": 7
+      },
+      {
+        "name": "Ranger",
+        "id": 8
+      },
+      {
+        "name": "Guardian",
+        "id": 9
+      },
+      {
+        "name": "Knight",
+        "id": 10
+      }
+    ]
+  }

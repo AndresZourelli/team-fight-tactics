@@ -49,8 +49,48 @@
         "id": 12
       },
       {
-        "name": "Regeneration",
+        "name": "Health",
         "id": 13
+      },
+      {
+        "name": "Mana",
+        "id": 14
+      },
+      {
+        "name": "Critical_Strike_Chance",
+        "id": 15
+      },
+      {
+        "name": "Critical_Strike_Damage",
+        "id": 16
+      },
+      {
+        "name": "Class",
+        "id": 17
+      },
+      {
+        "name": "Origin",
+        "id": 18
+      },
+      {
+        "name": "Sheild",
+        "id": 19
+      },
+      {
+        "name": "Critical_Strike_Dodge_Chance",
+        "id": 20
+      },
+      {
+        "name": "Regeneration",
+        "id": 21
+      },
+      {
+        "name": "Chance_To_Disarm",
+        "id": 22
+      },
+      {
+        "name": "Percent_Damage_Reflected",
+        "id": 23
       }
     ]
   }
