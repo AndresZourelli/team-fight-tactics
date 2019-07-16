@@ -2,8 +2,10 @@ import React from 'react';
 import './App.scss';
 import DropContainer from './components/DropContainer';
 import DragContainer from './components/DragContainer';
-
-function App() {
+import CharacterJSON from './HOC/CharacterJSON';
+import CharacterOrigins from './components/Character_Origins/CharacterOrigins';
+function App(props) {
+	console.log(props);
 	return (
 		<div className="App">
 			<nav className="navbar navbar-dark bg-dark">
@@ -15,13 +17,15 @@ function App() {
 				<div className="left-menu">Characters</div>
 				<div className="main-menu">Team Build Area</div>
 				<div className="right-menu">Item Area</div>
-				<div className="bottom-menu">Team Comp Builder</div>
+				<div className="bottom-menu">
+					<CharacterOrigins />
+				</div>
 			</div>
 		</div>
 	);
 }
 
-export default App;
+export default CharacterJSON(App);
 
 // working code
 // <div className="App" style={{ display: 'flex' }}>
