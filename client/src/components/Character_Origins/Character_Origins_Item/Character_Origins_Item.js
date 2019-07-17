@@ -15,7 +15,7 @@ const CharacterOriginsItem = (props) => {
 		assign_color = 'gold';
 	}
 	return (
-		<div className="Drag_item" {...props} style={{ backgroundColor: assign_color }}>
+		<div className="Drag_item" {...props} style={{ backgroundColor: assign_color, cursor: 'move' }}>
 			{props.character.name}
 		</div>
 	);

@@ -3,6 +3,7 @@ import './App.scss';
 import CharacterOrigins from './components/Character_Origins/CharacterOrigins';
 import { getCharacters } from './ReduxContainer/actions/actions';
 import { connect } from 'react-redux';
+import TeamBuild from './components/Team_Build_Area/TeamBuild';
 class App extends Component {
 	componentDidMount() {
 		this.props.getCharacters();
@@ -17,7 +18,9 @@ class App extends Component {
 				</nav>
 				<div className="main-container">
 					<div className="left-menu">Characters</div>
-					<div className="main-menu">Team Build Area</div>
+					<div className="main-menu">
+						<TeamBuild />
+					</div>
 					<div className="right-menu">Item Area</div>
 					<div className="bottom-menu">
 						<CharacterOrigins />
