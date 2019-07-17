@@ -4,7 +4,7 @@ import ListChar from '../../JSON Data/Characters.json';
 export const getCharacters = () => (dispatch) => {
 	dispatch({
 		type: CHARACTERS,
-		payload: ListChar.characters
+		payload: ListChar.characters.sort(sort_by_level)
 	});
 	dispatch({
 		type: CLASSES,
@@ -151,4 +151,9 @@ function extract_origins() {
 		yordle: yordle
 	};
 	return organize_origins;
+}
+
+function sort_by_level(a, b) {
+	if (a.tier >= b.teir) return 1;
+	if (b.tier > a.tier) return -1;
 }

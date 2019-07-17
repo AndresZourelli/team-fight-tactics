@@ -15,24 +15,28 @@
     flex: 20%;
     background-color: gold;
     order: 1;
+    min-height: 50vh;
   }
 
   .main-menu {
     flex: 60%;
     background-color: deepskyblue;
     order: 2;
+    min-height: 25vh;
   }
 
   .right-menu {
     flex: 20%;
     background-color: lightgreen;
     order: 3;
+    min-height: 25vh;
   }
 
   .bottom-menu {
     flex: 100%;
     background-color: tomato;
     order: 4;
+    min-height: 25vh;
   }
 }
 

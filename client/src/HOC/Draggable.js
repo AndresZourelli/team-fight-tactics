@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 const Draggable = (WrappedComponent) => {
 	return class extends Component {
 		drag = (e) => {
-			console.log(e);
 			e.dataTransfer.setData('transfer', e.target.id);
 		};
 

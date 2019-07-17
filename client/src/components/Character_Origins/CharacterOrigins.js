@@ -5,7 +5,7 @@ import CharacterOriginsItem from './Character_Origins_Item/Character_Origins_Ite
 const CharacterOrigins = (props) => {
 	let titles = Object.keys(props.classes).map((x) => {
 		let indv_data = props.classes[x].map((char) => {
-			return <CharacterOriginsItem character={char} key={char.name} {...props} />;
+			return <CharacterOriginsItem character={char} key={char.name} />;
 		});
 		return (
 			<div className="class_item" key={x}>
