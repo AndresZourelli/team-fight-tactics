@@ -31,34 +31,34 @@ function extract_classes() {
 		let index = ListChar.characters[i];
 
 		if (index.class.includes('Assassin')) {
-			assassin.push(index.name);
+			assassin.push(index);
 		}
 		if (index.class.includes('Blademaster')) {
-			blademaster.push(index.name);
+			blademaster.push(index);
 		}
 		if (index.class.includes('Brawler')) {
-			brawler.push(index.name);
+			brawler.push(index);
 		}
 		if (index.class.includes('Elementalist')) {
-			elementalist.push(index.name);
+			elementalist.push(index);
 		}
 		if (index.class.includes('Guardian')) {
-			guardian.push(index.name);
+			guardian.push(index);
 		}
 		if (index.class.includes('Gunslinger')) {
-			gunslinger.push(index.name);
+			gunslinger.push(index);
 		}
 		if (index.class.includes('Knight')) {
-			knight.push(index.name);
+			knight.push(index);
 		}
 		if (index.class.includes('Ranger')) {
-			ranger.push(index.name);
+			ranger.push(index);
 		}
 		if (index.class.includes('Shapeshifter')) {
-			shapeshifter.push(index.name);
+			shapeshifter.push(index);
 		}
 		if (index.class.includes('Sorcerer')) {
-			sorcerer.push(index.name);
+			sorcerer.push(index);
 		}
 	}
 
@@ -96,43 +96,43 @@ function extract_origins() {
 	for (let i = 0; i < ListChar.characters.length; i++) {
 		let index = ListChar.characters[i];
 		if (index.origins.includes('Demon')) {
-			demon.push(index.name);
+			demon.push(index);
 		}
 		if (index.origins.includes('Dragon')) {
-			dragon.push(index.name);
+			dragon.push(index);
 		}
 		if (index.origins.includes('Exile')) {
-			exile.push(index.name);
+			exile.push(index);
 		}
 		if (index.origins.includes('Glacial')) {
-			glacial.push(index.name);
+			glacial.push(index);
 		}
 		if (index.origins.includes('Robot')) {
-			robot.push(index.name);
+			robot.push(index);
 		}
 		if (index.origins.includes('Imperial')) {
-			imperial.push(index.name);
+			imperial.push(index);
 		}
 		if (index.origins.includes('Noble')) {
-			noble.push(index.name);
+			noble.push(index);
 		}
 		if (index.origins.includes('Ninja')) {
-			ninja.push(index.name);
+			ninja.push(index);
 		}
 		if (index.origins.includes('Pirate')) {
-			pirate.push(index.name);
+			pirate.push(index);
 		}
 		if (index.origins.includes('Phantom')) {
-			phantom.push(index.name);
+			phantom.push(index);
 		}
 		if (index.origins.includes('Wild')) {
-			wild.push(index.name);
+			wild.push(index);
 		}
 		if (index.origins.includes('Void')) {
-			voids.push(index.name);
+			voids.push(index);
 		}
 		if (index.origins.includes('Yordle')) {
-			yordle.push(index.name);
+			yordle.push(index);
 		}
 	}
 	let organize_origins = {

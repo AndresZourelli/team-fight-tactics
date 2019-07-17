@@ -14,7 +14,7 @@ const Droppable = (WrappedComponent) => {
 		};
 		render() {
 			return (
-				<WrappedComponent id={this.props.id} onDrop={this.drop} onDragOver={this.allowDrop}>
+				<WrappedComponent id={this.props.id} onDrop={this.drop} onDragOver={this.allowDrop} {...this.props}>
 					{this.props.children}
 				</WrappedComponent>
 			);

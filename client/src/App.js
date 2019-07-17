@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 import './App.scss';
-import DropContainer from './components/DropContainer';
-import DragContainer from './components/DragContainer';
-import CharacterJSON from './HOC/CharacterJSON';
 import CharacterOrigins from './components/Character_Origins/CharacterOrigins';
 import { getCharacters } from './ReduxContainer/actions/actions';
 import { connect } from 'react-redux';
