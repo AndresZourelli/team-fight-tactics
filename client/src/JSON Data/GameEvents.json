@@ -43,6 +43,18 @@
       {
         "name": "Continuous",
         "id": 11
+      },
+      {
+        "name": "Quarter_Health_Left",
+        "id": 12
+      },
+      {
+        "name": "On_Spell_Ability_Hit",
+        "id": 13
+      },
+      {
+        "name": "On_Enemy_Spell_Cast",
+        "id": 14
       }
     ]
   }

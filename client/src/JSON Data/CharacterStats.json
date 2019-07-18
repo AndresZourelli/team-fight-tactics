@@ -73,7 +73,7 @@
         "id": 18
       },
       {
-        "name": "Sheild",
+        "name": "Adjacent_Allies_Sheild",
         "id": 19
       },
       {
@@ -91,6 +91,34 @@
       {
         "name": "Percent_Damage_Reflected",
         "id": 23
+      },
+      {
+        "name": "Adjacent_Enemy_Attack_Speed",
+        "id": 24
+      },
+      {
+        "name": "Enemy_Regeneration",
+        "id": 25
+      },
+      {
+        "name": "Mitigated_Damage_Reflected",
+        "id": 26
+      },
+      {
+        "name": "Nearby_Ally_Health_Gain",
+        "id": 27
+      },
+      {
+        "name": "Banish_Mirrored_Enemy",
+        "id": 28
+      },
+      {
+        "name": "Spell_Damage_Ability_Power",
+        "id": 29
+      },
+      {
+        "name": "Enemy_Health",
+        "id": 30
       }
     ]
   }

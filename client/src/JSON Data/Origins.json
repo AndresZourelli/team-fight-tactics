@@ -1,0 +1,56 @@
+{
+  "classes": [
+      {
+        "name": "Demon",
+        "id": 1
+      },
+      {
+        "name": "Dragon",
+        "id": 2
+      },
+      {
+        "name": "Exile",
+        "id": 3
+      },
+      {
+        "name": "Glacial",
+        "id": 4
+      },
+      {
+        "name": "Robot",
+        "id": 5
+      },
+      {
+        "name": "Imperial",
+        "id": 6
+      },
+      {
+        "name": "Noble",
+        "id": 7
+      },
+      {
+        "name": "Ninja",
+        "id": 8
+      },
+      {
+        "name": "Pirate",
+        "id": 9
+      },
+      {
+        "name": "Phantom",
+        "id": 10
+      },
+      {
+        "name": "Wild",
+        "id": 11
+      },
+      {
+        "name": "Void",
+        "id": 12
+      },
+      {
+        "name": "Yordle",
+        "id": 13
+      }
+    ]
+  }
