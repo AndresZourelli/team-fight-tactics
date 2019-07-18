@@ -1,11 +1,9 @@
-import { CHARACTERS } from '../actions/types';
+import { CHARACTERS, CLASSES, ORIGINS } from '../actions/types';
 
 const initialState = {
-	flight_data: [],
-	multi_city_data: [],
-	form: {},
-	photoData: {},
-	loading: false
+	characters: [],
+	classes: {},
+	origins: {}
 };
 
 export default function(state = initialState, action) {
@@ -13,8 +11,17 @@ export default function(state = initialState, action) {
 		case CHARACTERS:
 			return {
 				...state,
-				flight_data: action.payload,
-				loading: false
+				characters: action.payload
+			};
+		case CLASSES:
+			return {
+				...state,
+				classes: action.payload
+			};
+		case ORIGINS:
+			return {
+				...state,
+				origins: action.payload
 			};
 
 		default:

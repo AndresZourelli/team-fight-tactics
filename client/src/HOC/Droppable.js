@@ -6,7 +6,9 @@ const Droppable = (WrappedComponent) => {
 		drop = (e) => {
 			e.preventDefault();
 			const data = e.dataTransfer.getData('transfer');
-			e.target.appendChild(document.getElementById(data));
+			var nodeCopy = document.getElementById(data).cloneNode(true);
+			nodeCopy.id = 'newID';
+			e.target.appendChild(nodeCopy);
 		};
 
 		allowDrop = (e) => {
@@ -14,7 +16,11 @@ const Droppable = (WrappedComponent) => {
 		};
 		render() {
 			return (
-				<WrappedComponent id={this.props.id} onDrop={this.drop} onDragOver={this.allowDrop}>
+				<WrappedComponent
+					id={this.props.character ? this.props.character.name : null}
+					onDrop={this.drop}
+					onDragOver={this.allowDrop}
+					{...this.props}>
 					{this.props.children}
 				</WrappedComponent>
 			);

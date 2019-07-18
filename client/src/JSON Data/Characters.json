@@ -142,7 +142,7 @@
         {
             "name": "Cho'gath",
             "class": ["Brawler"],
-            "origins": ["Wild"],
+            "origins": ["Void"],
             "health": [],
             "attack": [],
             "attack speed": [],
@@ -152,7 +152,7 @@
         {
             "name": "Rek'Sai",
             "class": ["Brawler"],
-            "origins": ["Wild"],
+            "origins": ["Void"],
             "health": [],
             "attack": [],
             "attack speed": [],
@@ -462,7 +462,7 @@
         {
             "name": "Kassadin",
             "class": ["Sorcerer"],
-            "origins": ["Wild"],
+            "origins": ["Void"],
             "health": [],
             "attack": [],
             "attack speed": [],

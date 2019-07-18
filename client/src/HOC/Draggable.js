@@ -11,8 +11,9 @@ const Draggable = (WrappedComponent) => {
 			e.stopPropagation();
 		};
 		render() {
+			console.log(this.props);
 			return (
-				<WrappedComponent id={this.props.id} draggable onDragStart={this.drag} onDragOver={this.noAllowDrop}>
+				<WrappedComponent draggable onDragStart={this.drag} onDragOver={this.noAllowDrop} {...this.props}>
 					{this.props.children}
 				</WrappedComponent>
 			);
