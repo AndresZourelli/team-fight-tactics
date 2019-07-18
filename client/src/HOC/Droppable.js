@@ -8,10 +8,12 @@ const Droppable = (WrappedComponent) => {
 			console.log('Drop', e.target);
 			const data = e.dataTransfer.getData('transfer');
 			console.log(data);
-			var nodeCopy = document.getElementById(data).cloneNode(true);
-			nodeCopy.id = 'newID';
-			console.log(nodeCopy);
-			e.target.appendChild(nodeCopy);
+			if(document.getElementById(data) !== null) {
+				var nodeCopy = document.getElementById(data).cloneNode(true);
+				nodeCopy.id = 'newID';
+				console.log(nodeCopy);
+				e.target.appendChild(nodeCopy);
+			}
 		};
 
 		allowDrop = (e) => {

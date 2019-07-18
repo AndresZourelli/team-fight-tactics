@@ -320,14 +320,47 @@
         "ingredient_2": 8
       },
       {
-        "name": "",
-        "id": ,
-        "description": "",
+        "name": "Rabadons_Deathcap",
+        "id": 30,
+        "description": "Spell Damage +50% Ability Power",
+        "character_stat": 29,
+        "event_trigger": 1,
+        "value": 50,
+        "value_type": "Percent_Of_Stat",
+        "ingredient_1": 4,
+        "ingredient_2": 4
+      },
+      {
+        "name": "Ludens_Echo",
+        "id": 31,
+        "description": "Spells Deal 200 Splash Damage When an Ability Hits an Enemy",
+        "character_stat": 10,
+        "event_trigger": 13,
+        "value": 200,
+        "value_type": "Integer",
+        "ingredient_1": 4,
+        "ingredient_2": 7
+      },
+      {
+        "name": "Ionic_Spark",
+        "id": 32,
+        "description": "Whenever an Enemy Casts a Spell, They Take 200 True Damage",
+        "character_stat": 30,
+        "event_trigger": 14,
+        "value": -200,
+        "value_type": "Integer",
+        "ingredient_1": 4,
+        "ingredient_2": 5
+      },
+      {
+        "name": "Guinsoos_Rageblade",
+        "id": 33,
+        "description": "Attacks Grant 4% Attack Speed. Stacks Infinitely`",
         "character_stat": ,
         "event_trigger": ,
         "value": ,
         "value_type": "",
-        "ingredient_1": 3,
+        "ingredient_1": 4,
         "ingredient_2": 
       },
       {
@@ -338,8 +371,52 @@
         "event_trigger": ,
         "value": ,
         "value_type": "",
-        "ingredient_1": 3,
+        "ingredient_1": 4,
         "ingredient_2": 
       },
+      {
+        "name": "",
+        "id": ,
+        "description": "",
+        "character_stat": ,
+        "event_trigger": ,
+        "value": ,
+        "value_type": "",
+        "ingredient_1": 4,
+        "ingredient_2": 
+      },
+      {
+        "name": "",
+        "id": ,
+        "description": "",
+        "character_stat": ,
+        "event_trigger": ,
+        "value": ,
+        "value_type": "",
+        "ingredient_1": 4,
+        "ingredient_2": 
+      },
+      {
+        "name": "",
+        "id": ,
+        "description": "",
+        "character_stat": ,
+        "event_trigger": ,
+        "value": ,
+        "value_type": "",
+        "ingredient_1": 4,
+        "ingredient_2": 
+      },
+      {
+        "name": "",
+        "id": ,
+        "description": "",
+        "character_stat": ,
+        "event_trigger": ,
+        "value": ,
+        "value_type": "",
+        "ingredient_1": 4,
+        "ingredient_2": 
+      }
     ]
   }
