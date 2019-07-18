@@ -6,7 +6,9 @@ const Droppable = (WrappedComponent) => {
 		drop = (e) => {
 			e.preventDefault();
 			const data = e.dataTransfer.getData('transfer');
-			e.target.appendChild(document.getElementById(data));
+			var nodeCopy = document.getElementById(data).cloneNode(true);
+			nodeCopy.id = 'newID';
+			e.target.appendChild(nodeCopy);
 		};
 
 		allowDrop = (e) => {
