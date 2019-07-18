@@ -5,9 +5,12 @@ const Droppable = (WrappedComponent) => {
 	return class extends Component {
 		drop = (e) => {
 			e.preventDefault();
+			console.log('Drop', e.target);
 			const data = e.dataTransfer.getData('transfer');
+			console.log(data);
 			var nodeCopy = document.getElementById(data).cloneNode(true);
 			nodeCopy.id = 'newID';
+			console.log(nodeCopy);
 			e.target.appendChild(nodeCopy);
 		};
 
