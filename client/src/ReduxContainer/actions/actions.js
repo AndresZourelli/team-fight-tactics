@@ -1,5 +1,28 @@
-import { CHARACTERS, CLASSES, ORIGINS } from './types';
+import {
+	CHARACTERS,
+	CLASSES,
+	ORIGINS,
+	ASSASSIN,
+	BLADEMASTER,
+	BRAWLER,
+	ELEMENTALIST,
+	GUARDIAN,
+	GUNSLINGER,
+	KNIGHT,
+	RANGER,
+	SHAPESHIFTER,
+	SORCERER,
+	DROP_LOCATION
+} from './types';
 import ListChar from '../../JSON Data/Characters.json';
+
+export const addToDroppedList = (characterData) => (dispatch) => {
+	console.log(characterData);
+	dispatch({
+		type: DROP_LOCATION,
+		payload: characterData
+	});
+};
 
 export const getCharacters = () => (dispatch) => {
 	dispatch({
@@ -8,7 +31,7 @@ export const getCharacters = () => (dispatch) => {
 	});
 	dispatch({
 		type: CLASSES,
-		payload: extract_classes()
+		payload: extract_classes(dispatch)
 	});
 	dispatch({
 		type: ORIGINS,
@@ -16,7 +39,7 @@ export const getCharacters = () => (dispatch) => {
 	});
 };
 
-function extract_classes() {
+function extract_classes(dispatch) {
 	let assassin = [];
 	let blademaster = [];
 	let brawler = [];
@@ -32,33 +55,73 @@ function extract_classes() {
 
 		if (index.class.includes('Assassin')) {
 			assassin.push(index);
+			dispatch({
+				type: ASSASSIN,
+				payload: index
+			});
 		}
 		if (index.class.includes('Blademaster')) {
 			blademaster.push(index);
+			dispatch({
+				type: BLADEMASTER,
+				payload: index
+			});
 		}
 		if (index.class.includes('Brawler')) {
 			brawler.push(index);
+			dispatch({
+				type: BRAWLER,
+				payload: index
+			});
 		}
 		if (index.class.includes('Elementalist')) {
 			elementalist.push(index);
+			dispatch({
+				type: ELEMENTALIST,
+				payload: index
+			});
 		}
 		if (index.class.includes('Guardian')) {
 			guardian.push(index);
+			dispatch({
+				type: GUARDIAN,
+				payload: index
+			});
 		}
 		if (index.class.includes('Gunslinger')) {
 			gunslinger.push(index);
+			dispatch({
+				type: GUNSLINGER,
+				payload: index
+			});
 		}
 		if (index.class.includes('Knight')) {
 			knight.push(index);
+			dispatch({
+				type: KNIGHT,
+				payload: index
+			});
 		}
 		if (index.class.includes('Ranger')) {
 			ranger.push(index);
+			dispatch({
+				type: RANGER,
+				payload: index
+			});
 		}
 		if (index.class.includes('Shapeshifter')) {
 			shapeshifter.push(index);
+			dispatch({
+				type: SHAPESHIFTER,
+				payload: index
+			});
 		}
 		if (index.class.includes('Sorcerer')) {
 			sorcerer.push(index);
+			dispatch({
+				type: SORCERER,
+				payload: index
+			});
 		}
 	}
 

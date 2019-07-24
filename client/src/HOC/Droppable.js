@@ -8,7 +8,7 @@ const Droppable = (WrappedComponent) => {
 			console.log('Drop', e.target);
 			const data = e.dataTransfer.getData('transfer');
 			console.log(data);
-			if(document.getElementById(data) !== null) {
+			if (document.getElementById(data) !== null) {
 				var nodeCopy = document.getElementById(data).cloneNode(true);
 				nodeCopy.id = 'newID';
 				console.log(nodeCopy);
