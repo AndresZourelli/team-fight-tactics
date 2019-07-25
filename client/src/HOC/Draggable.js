@@ -1,38 +1,29 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { compose } from 'redux';
 import { addToDroppedList } from '../ReduxContainer/actions/actions';
 const Draggable = (WrappedComponent) => {
 	class HOCComponent extends Component {
 		drag = (e) => {
-			console.log('Drag', e);
 			e.dataTransfer.setData('transfer', e.target.id);
 			e.dataTransfer.effectAllowed = 'copy';
 		};
-		dragEnd = (e) => {
-			console.log(e.currentTarget);
+		dragEnd = () => {
 			this.props.addnewcharactertodrop(this.props.character);
-			const data = e.dataTransfer.getData('transfer');
-			if (document.getElementById(data) === null) {
-				e.dataTransfer.setData('transfer', e.target.id);
-				e.dataTransfer.effectAllowed = 'copy';
-			}
 		};
 
 		noAllowDrop = (e) => {
 			e.stopPropagation();
 		};
 		render() {
-			console.log(this.props);
 			return (
 				<WrappedComponent
 					draggable
+					id={this.props.id}
 					onDragStart={this.drag}
 					onDragOver={this.noAllowDrop}
 					onDragEnd={this.dragEnd}
-					character={this.props.character}
-					hi="hi">
+					character={this.props.character}>
 					{this.props.children}
 				</WrappedComponent>
 			);
