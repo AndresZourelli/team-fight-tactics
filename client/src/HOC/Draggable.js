@@ -6,15 +6,15 @@ const Draggable = (WrappedComponent) => {
 	class HOCComponent extends Component {
 		drag = (e) => {
 			e.dataTransfer.setData('transfer', e.target.id);
-			e.dataTransfer.effectAllowed = 'copy';
 		};
-		dragEnd = () => {
-			this.props.addnewcharactertodrop(this.props.character);
+		dragEnd = (e) => {
+			console.log('endDrag');
 		};
 
 		noAllowDrop = (e) => {
 			e.stopPropagation();
 		};
+
 		render() {
 			return (
 				<WrappedComponent
@@ -37,7 +37,11 @@ const Draggable = (WrappedComponent) => {
 		};
 	};
 
-	return connect(null, mapDispatchToProps)(HOCComponent);
+	const mapStateToProps = (state) => ({
+		dropArray: state.dragAndDrop.dropLocation
+	});
+
+	return connect(mapStateToProps, mapDispatchToProps)(HOCComponent);
 };
 Draggable.PropTypes = {
 	id: PropTypes.string,

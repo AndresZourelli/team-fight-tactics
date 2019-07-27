@@ -17,7 +17,6 @@ import {
 import ListChar from '../../JSON Data/Characters.json';
 
 export const addToDroppedList = (characterData) => (dispatch) => {
-	console.log(characterData);
 	dispatch({
 		type: DROP_LOCATION,
 		payload: characterData
